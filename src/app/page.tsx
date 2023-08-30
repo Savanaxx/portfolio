@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Link from "next/link"
 import logo from "./assets/logo.png"
 import lk from "./assets/linked.png"
 import git from "./assets/git.png"
@@ -29,7 +28,7 @@ I consider myself a "beginner" web developer, although this label doesn't captur
                 <p className="float-left mr-[1vb] mt-[2vb] font-bold text-[1.5vb] md:text-[2.5vb]">Contact me:</p>
                     <div className="bg-slate-400 h-[100%] w-[30%] grid grid-cols-2 justify-items-center items-center rounded-xl">
                 <a href="https://www.linkedin.com/in/jakub-podbielski-a0231b228/"><Image className="saturate-50 rounded-full w-auto h-auto" src={lk} height={45} width={50} alt="lk"/></a>
-                <Image className="saturate-50 rounded-full w-auto h-auto" src={git} height={45} width={50} alt="git"/>
+                <a href="https://github.com/Savanaxx"><Image className="saturate-50 rounded-full w-auto h-auto" src={git} height={45} width={50} alt="git"/></a>
                 </div>
                 <p className="float-right -mt-[2vb] hidden 2xl:flex">technology used: react/next.js | tailwindcss | typescript</p>
             </footer>
